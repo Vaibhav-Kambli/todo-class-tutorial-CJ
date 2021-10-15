@@ -13,11 +13,6 @@ const TodoList = ({ todos, toggleDone, removeTodo }) => {
 						removeTodo={removeTodo}
 						is_done={todo.is_done}
 					/>
-					// <li key={id} className={is_done ? "done" : ""}>
-					// 	{title}
-					// 	<button onClick={() => toggleDone(id)}>Toggle Done</button>
-					// 	<button onClick={() => removeTodo(id)}>Remove</button>
-					// </li>
 				))}
 			</ul>
 		</div>
